@@ -475,6 +475,7 @@ color:#F05A28;
 text-decoration:none;
 font-weight:500;
 }
+}
 
 /* tablet */
 
@@ -518,69 +519,56 @@ align-items:flex-start;
 }
 
 }
-
 /* DARK MODE */
 
 @media (prefers-color-scheme: dark){
 
 body{
-background:#000;
+  background:#000;
 }
 
 .card{
-background:linear-gradient(180deg,#1c1c1c,#121212);
-box-shadow:none;
+  background:linear-gradient(180deg,#1c1c1c,#121212);
+  box-shadow:none;
 }
 
 h1{
-color:#ffffff;
+  color:#ffffff;
 }
 
 .hello{
-color:#9CA3AF !important;
+  color:#9CA3AF !important;
 }
 
 .subtitle{
-color:#ffffff;
+  color:#ffffff;
 }
 
 .desc{
-color:#cfcfcf;
+  color:#cfcfcf;
 }
 
 .feature{
-color:#cfcfcf;
+  color:#cfcfcf;
 }
 
 .feature-title h3{
-color:#ffffff;
+  color:#ffffff;
 }
 
 .hero{
-background:#000;
-}
-
-.footer{
-color:#9ca3af;
-}
-
-}
-color:#fff;
-}
-
-.hero{
-background:#000;
+  background:#000;
 }
 
 .chart{
-background:
-linear-gradient(#222 1px, transparent 1px),
-linear-gradient(90deg,#222 1px, transparent 1px);
-background-size:30px 30px;
+  background:
+  linear-gradient(#222 1px, transparent 1px),
+  linear-gradient(90deg,#222 1px, transparent 1px);
+  background-size:30px 30px;
 }
 
 .footer{
-color:#9ca3af;
+  color:#9ca3af;
 }
 
 }
